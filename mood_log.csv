@@ -1,4 +1,4 @@
 # Create an empty mood_log.csv
-import pandas as pd
-df = pd.DataFrame(columns=["Date", "Mood", "Task"])
+import pandas as p
+df = p.DataFrame(columns=["Date", "Mood", "Task"])
 df.to_csv("mood_log.csv", index=False)
