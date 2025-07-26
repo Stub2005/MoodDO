@@ -1,4 +1,3 @@
-streamlit==1.35.0
-textblob==0.17.1
-speechrecognition
-pyaudio
+# Create requirements.txt
+with open("requirements.txt", "w") as f:
+    f.write("streamlit\ntextblob\npandas\n")
