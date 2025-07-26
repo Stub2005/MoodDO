@@ -1,3 +1,0 @@
-# Create requirements.txt
-with open("requirements.txt", "w") as f:
-    f.write("streamlit\ntextblob\npandas\n")
